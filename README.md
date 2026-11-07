@@ -170,3 +170,46 @@ The analysis identified substantial differences in churn across customer segment
 The interactive Power BI dashboard provides an overview of customer churn, retention rates, and key churn patterns across customer segments.
 
 ![SaaS Churn & Retention Dashboard](images/dashboard_overview.png)
+
+
+## Installation & How to Run
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/KetanBhatia/SaaS-Churn-Retention-Analysis.git
+cd SaaS-Churn-Retention-Analysis
+```
+
+**2. Create a Python virtual environment**
+
+```bash
+python -m venv .venv
+```
+
+**3. Activate the environment (Windows CMD)**
+
+```bat
+.venv\Scripts\activate.bat
+```
+
+**4. Install the required libraries**
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+**5. Explore the analysis**
+
+Open the following notebooks in VS Code or Jupyter:
+
+- `notebooks/01_data_exploration.ipynb`
+- `notebooks/02_churn_eda.ipynb`
+
+**6. View the Power BI dashboard**
+
+Open `powerbi/SaaS_Churn_Dashboard_Final.pbix` using Power BI Desktop.
+
+**7. Explore the SQL analysis**
+
+The SQL queries are available in `sql/churn_analysis.sql`. Run them in PostgreSQL after importing the cleaned dataset into a `customers` table.
