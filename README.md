@@ -164,3 +164,9 @@ The analysis identified substantial differences in churn across customer segment
 - Analyze customer lifetime value.
 - Evaluate retention strategies through experimentation.
 - Automate dashboard data refreshes.
+
+## Power BI Dashboard
+
+The interactive Power BI dashboard provides an overview of customer churn, retention rates, and key churn patterns across customer segments.
+
+![SaaS Churn & Retention Dashboard](images/dashboard_overview.png)
